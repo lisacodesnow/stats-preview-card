@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****General Styles***/
+
+body{
+	background: hsl(233, 47%, 7%);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+html{
+	font-size: 15pt;
+}
+
+h1,
+h3{
+	font-family: 'Inter', sans-serif;
+	text-align: center;
+	color: hsl(0, 0%, 100%)
+}
+
+p {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: .75em;
+	text-align: center;
+	color: hsla(0, 0%, 100%, 0.75);
+	
+}
+
+.containter{
+	width: 90%;
+	max-width: 600px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+img{
+	color: hsl(277, 64%, 61%);
+	border-radius: 10px 10px 0px 0px;
+}
+
+
+#mobile-picture{
+	opacity: 0.25;
+	width: 100%;
+	height: 100%;
+	background-image: hsl(277, 64%, 61%);
+}
+
+#desktop-picture{
+	display: none;
+}
+
+.business-container{
+	width: 90%;
+}
+.business-info {
+	
+	background: hsl(244, 38%, 16%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 0px 0px 10px 10px;
+	
+}
+
+.business-info span{
+	color: hsl(277, 64%, 61%);
+}
+
+.business-insights p{
+	line-height: 2em;
+}
+
+.business-numbers{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.business-numbers p{
+	margin: 5px;
+	
+}
+
+.business-numbers h3{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	
+}
+
+.attribution { 
+				font-size: 11px; 
+				text-align: center;
+	color: #ffffff;
+	margin: 30px 0px;
+				}
+ .attribution a { 
+	 				color: hsl(228, 45%, 44%); 
+				}
