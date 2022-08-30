@@ -44,24 +44,22 @@ p {
 
 
 img{
-	color: hsl(277, 64%, 61%);
 	border-radius: 10px 10px 0px 0px;
 }
 
-.photo{
-	background: url("images/image-header-mobile.jpg") center no-repeat;
-	background-size: cover;
-	min-height: 500px;
-	width:100%;
-}
+ .photo{
+	background-color: hsl(277, 64%, 61%); 
+	border-radius: 10px 10px 0px 0px;
+} 
 
 
-/* #mobile-picture{
-	opacity: 0.25;
+ #mobile-picture{
+	opacity: 0.50;
 	width: 100%;
 	height: 100%;
 	background-image: hsl(277, 64%, 61%);
-} */
+} 
+
 
 #desktop-picture{
 	display: none;
