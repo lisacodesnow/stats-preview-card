@@ -116,12 +116,10 @@ Work big to small. Out to in.
 1. Continue to use flexbox and grid together.
 2. Use grid for bigger containers and flex for smaller ones
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 
 ## Author
 
-- Website - [Lisa Thompson](https://lisacodesnow.github.io/stats-preview-card/))
+- Website - [Lisa Thompson](https://lisacodesnow.github.io/stats-preview-card/)
 - Frontend Mentor - [@lisacodesnow](https://www.frontendmentor.io/profile/lisacodesnow)
 
 
